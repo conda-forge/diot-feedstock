@@ -1,5 +1,5 @@
 {% set name = "diot" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/diot-{{ version }}.tar.gz
-  sha256: a8adc50e2d8e2a1d03ed017ecae98eb09a7ebb3bd0a5fbd44cbfb222e5a71bb4
+  sha256: 1dcfc37dff406c96020d14350c05f920cb7446c3e5abf3477cf2ae0587f72066
 
 build:
   number: 0
@@ -18,10 +18,10 @@ requirements:
   host:
     - pip
     - poetry >=0.12
-    - python >=3.6
+    - python >=3.7
   run:
-    - inflection <1.0.0
-    - python >=3.6
+    - inflection >=0.5,<1.0.0
+    - python >=3.7
 
 test:
   requires:
