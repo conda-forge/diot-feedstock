@@ -1,11 +1,11 @@
-About diot
-==========
+About diot-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/diot-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pwwang/diot
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/diot-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python dictionary with dot notation
 
