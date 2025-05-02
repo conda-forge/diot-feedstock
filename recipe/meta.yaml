@@ -1,5 +1,5 @@
 {% set name = "diot" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/diot-{{ version }}.tar.gz
-  sha256: 6c4667af8e82dced98837efd9ad4ae098e3ccbadef21f6c5033f151d5a62d34f
+  sha256: 15f4030803ab0b540bb94174b7eecc5676c869bb93fa86e4fb60a0bc4735dfad
 
 build:
   number: 0
